@@ -14,15 +14,3 @@ numCode.innerHTML = `<p class="pressedBtn"> ${keyWord} was pressed</p>`
 numWhich.innerHTML = `<p class="pressedBtn"> ${keyDown} was pressed</p>`
 })
 
-// const bigNumber = document.getElementById("mainNumber");
-// const which = document.getElementById("which");
-// const eventKey = document.getElementById("key");
-// const eventCode = document.getElementById("code");
-
-// document.addEventListener("keydown", (event) => {
-//     console.log(event);
-//     mainNumber.innerHTML = event.which;
-//     which.innerHTML = event.which;
-//     eventKey.innerHTML = event.key;
-//     eventCode.innerHTML = event.code;
-// });
